@@ -186,3 +186,24 @@ form{
     height: auto;
     padding-top: 28px;
 }
+
+@media screen and (max-width: 1248px) {
+    .port-img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .port-img{
+        height: 49.6%;
+        width: 49.6%;
+    }
+}
+
+@media screen and (max-width: 591px) {
+    .port-img{
+        height: 100%;
+        width: 100%;
+    }
+}
