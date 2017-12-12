@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Bootstrap style sheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle navbtn" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>      
+                        </button>
+                        <h1 class="navbar-text highlight"> Bryan Zimmerman</h1>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                        <ul class="nav navbar-nav navitems">
+                            <li><a href="index.html">About</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li class="active"><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Main page -->
+    <div class="container-fluid" id="page">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+
+                <!-- Content -->
+                <div class="col-md-8 content">
+                    <div class="container">
+                        <h2>Contact</h2>
+                        <form action="/action_page.php">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="comment">Message:</label>
+                                <textarea class="form-control" input type="password" id="comment" placeholder="Enter message" name="comment" rows="12"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+
+                <!-- Sidebar -->
+                <div class="col-md-3 sidebar">
+                    <h3>Connect with Me</h3>
+                    <div>
+                        <a href="https://github.com/bpzimmerman">
+                            <img src="assets/images/git-logo.png" alt="GitHub" height="512px" width="512px">
+                        </a>
+                        <a href="www.linkedin.com/in/bryan-zimmerman-61029a8">
+                            <img src="assets/images/in-logo.png" alt="Linkedin" height="512px" width="512px">
+                        </a>
+                        <a href="www.skype.com">
+                            <img src="assets/images/skype-logo.png" alt="Skype" height="512px" width="512px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+        <!-- Footer -->
+        <br>
+        <footer id="foot-wrap">
+            <div class="container-fluid">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 foot-content">
+                    <p>
+                        &#169 Copyright 2017 Bryan Zimmerman
+                    </p>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

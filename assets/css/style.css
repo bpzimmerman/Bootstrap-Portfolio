@@ -1,0 +1,188 @@
+/* General styles */
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url("../images/lblue011.jpg");
+    background-color: rgb(212, 225, 255);
+    height: 100%;
+}
+
+/* Navbar */
+
+#myNavbar{
+    margin-right: 0;
+}
+
+.navbar-default .navbar-text{
+    background-color: #3d69ab;
+    color: white;
+    font-size: 32px;
+    padding: 15px;
+    margin: 0px;
+}
+
+.navbar, .navbar-default{
+    background-color: white;
+    border-bottom: 2px solid #ffbc4a;
+    border-radius: 0px;
+}
+
+.navitems{
+    padding-top: 8px;
+}
+
+.navbtn{
+    margin-top: 17px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: #3d69ab;
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #3d69ab;
+}
+
+/* Main page styles */
+
+#page{
+    min-height: 100%;
+    width: 100%;
+    padding: 0;
+    position: relative;
+}
+
+.row{
+    padding: 0 15px 60px 15px;
+    margin: 80px 0 0 0;
+}
+
+#portrait{
+    height: 50%;
+    width: 50%;
+    padding-right: 10px;
+    float: left;
+}
+
+.content{
+    background-color: white;
+    padding-top: 0px;
+}
+
+.content h2{
+    color: #3d69ab;
+    font-size: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #3d69ab;
+    margin-bottom: 15px;
+}
+
+.content p{
+    font-size: 16px;
+    line-height: 160%;
+    margin: 0px;
+}
+
+/* Sidebar styles */
+
+.sidebar{
+    background-color: white;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.sidebar h3{
+    color: #3d69ab;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #3d69ab;
+    margin-bottom: 15px;
+}
+
+.sidebar img, .sidebar a{
+    height: 29.2%;
+    width: 29.2%;
+    text-decoration: none;
+}
+
+.sidebar img{
+    display: inline-block;
+}
+
+.sidebar div{
+    text-align: center;
+}
+
+/* Portfolio specific styles */
+
+.port-img{
+    height: 49.6%;
+    width: 49.6%;
+    padding-bottom: 15px;
+}
+
+.content a{
+    text-decoration: none;
+    position: relative;
+}
+
+.lab{
+    color: white;
+    font-size: 14px;
+    background-color: #3d69ab;
+    padding: 10px;
+    position: absolute;
+    left: 0px;
+    top: 7.5px;
+    z-index: 100;
+}
+
+/* Contact specific styles */
+
+.content div{
+    width: 100%;
+}
+
+form{
+    color: #3d69ab;
+    padding-bottom: 15px;
+}
+
+.form-control{
+    border: 1px solid #3d69ab;
+}
+
+.btn{
+    background-color: #3d69ab;
+    color: white;
+}
+
+/* Footer styles */
+
+#foot-wrap{
+    background-color: #3d69ab;
+    height: 60px;    /* Height of the footer */
+    width: 100%;
+    border-top: 5px solid #ffbc4a;
+    position: absolute;
+    bottom: 0;
+}
+
+.foot-content{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    height: auto;
+    padding-top: 28px;
+}
